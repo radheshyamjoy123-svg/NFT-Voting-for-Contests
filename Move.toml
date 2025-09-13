@@ -1,0 +1,17 @@
+[package]
+name = "NFT-Voting-for-Contests"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x61e2af50371b204c7d2a8d2030776f0a7532d668d3f78356e5ff37450b4b422a"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
